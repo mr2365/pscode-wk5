@@ -14,6 +14,14 @@ print on the screen the sum of those 2 numbers
 
 (Your pseudocode here)
 
+1. Input the number (let's call it "num").
+2. Calculate the remainder when dividing "num" by 2 (i.e., "remainder = num % 2").
+3. If "remainder" is equal to 0, then:
+    - Output "num is even."
+4. Otherwise:
+    - Output "num is odd."
+
+
 // Exercise 3: 
 Write pseudo code that will perform the following.    
 
@@ -23,5 +31,24 @@ c) Find the smallest (minimum) and largest (maximum) of the five entered numbers
 d) Write out the results found from steps b and c with a message describing what they are
 
 (Your pseudocode here)
+
+1. Initialize variables:
+   - sum = 0
+   - smallest = largest = read_number()  // Read the first number
+
+2. Repeat the following steps 4 more times:
+   a) Read a number (let's call it "num")
+   b) Add "num" to "sum"
+   c) If "num" is smaller than "smallest", update "smallest" with "num"
+   d) If "num" is larger than "largest", update "largest" with "num"
+
+3. Calculate the average:
+   - average = sum / 5
+
+4. Print the results:
+   - Print "The average of the five numbers is: " + average
+   - Print "The smallest number is: " + smallest
+   - Print "The largest number is: " + largest
+
 
 -- END --
