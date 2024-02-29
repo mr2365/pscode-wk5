@@ -29,6 +29,6 @@ d) Write out the results found from steps b and c with a message describing what
 2)	Calculates the average by summing up the numbers and dividing by 5.
 3)	Find the smallest and largest numbers using min() and max() functions.
 4)	Finally, it displays the average, smallest, and largest numbers.
-a)	The first calculation provides the average number
-b)	The second calculation provides the smallest number
-c)	The third calculation provides the largest number
+    a)	Write solution to line 2 (The first calculation provides the average number)
+    b)	Write solution to line 3 min() function (The second calculation provides the smallest number)
+    c)	Write solution to line 3 max() function (The third calculation provides the largest number)
